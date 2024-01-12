@@ -19,3 +19,32 @@ img{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+body{
+  text-align: center;
+  align-items: center;
+}
+button{
+  margin: 20px 0 0 0;
+  background-color: aqua;
+}
+h3{
+  font-size: large;
+  color: rgb(226, 151, 38);
+}
+
+@media (min-width:600px) {
+  .player{
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    justify-items: center;
+    flex-basis: 50%;
+    flex: 1;
+  }
+
+
+  .player *{
+    flex-basis: 50%;
+    flex: 1;
+  }
+}
